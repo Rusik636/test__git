@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* Font Style */
+.header-title {
+  font-size: 55px;
+  line-height: 65px;
+  font-weight: 800;
+  font-family: "Raleway";
+}
+
+/*----------------------------------------------*/
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+.navbar {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.navbar .container {
+  position: relative;
+  width: 100%;
+}
+
+.mask {
+  background: url("../img/header/BG__img.png") 0 0/2000px 100vh no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.banner {
+  position: relative;
+  height: 70vh;
+}
+
+.banner-inner {
+  position: absolute;
+  top: 50%;
+  transform: translate(0 -50%);
+}
+
+.header-title {
+  color: #fff;
+}
+
+/*# sourceMappingURL=styly.css.map */
